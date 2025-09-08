@@ -1,13 +1,13 @@
-def isPalindrome (str):
-    startIndex = 0
-    endIndex = len(str) - 1
+def isPalindrome(word):
+    startIndex = 0                  # start from the first letter
+    endIndex = len(word) - 1        # start from the last letter
 
-    for x in str:
-        if str[startIndex] != str[endIndex]:
-            print(f"The {str} is not a palindrome")
+    while startIndex < endIndex:    # keep going until they meet
+        if word[startIndex] != word[endIndex]:  # compare letters
+            print(f"{word} is NOT a palindrome")
             return False
-    print(f"The {str} is a palindrome")
-    
-isPalindrome("racecar")    
-isPalindrome("hello")
-isPalindrome("energye")
+        startIndex += 1             # move forward from start
+        endIndex -= 1               # move backward from end
+
+    print(f"{word} IS a palindrome")
+    return True
