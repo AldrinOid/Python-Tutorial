@@ -12,6 +12,7 @@ class Recipe:
 pizza = Recipe("Pizza", ["dough", "sauce", "cheese"], 30) 
 burger = Recipe("Burger", ["bun", "patty", "lettuce"], 15)
 spaghetti = Recipe("Spaghetti", ["pasta", "sauce", "meatballs"], 20)
+chicken_wings = Recipe("Chicken Wings", ["chicken wings", "sauce"], 25)
 
 def main():
     print(pizza.Food())
@@ -19,5 +20,9 @@ def main():
     print(burger.Food())
     print("\n")
     print(spaghetti.Food())
+    print("\n")
+    print(chicken_wings.Food())
+
+
 
 main()
