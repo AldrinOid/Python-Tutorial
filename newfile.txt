@@ -1,0 +1,2 @@
+This is a new file created using the 'with' statement.
+It automatically handles file closing.
