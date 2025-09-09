@@ -1,5 +1,5 @@
 # looping in the list
-list1 = ["apple", "banana", "cherry", "date", "elderberry"]
+list1 = ["apple", "banana", "cherry", "date", "elderberry", "kiwi"]
 
 # using for loop
 for item in list1:
