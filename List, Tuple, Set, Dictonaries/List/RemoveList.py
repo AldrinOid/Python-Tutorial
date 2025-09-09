@@ -1,5 +1,5 @@
 # remove item in the list
-list1 = [1,2,3,4,5,6,7,8,9,10]
+list1 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 list2 = ["a", "b", "c", "d", "e"]
 
 # using remove function
