@@ -76,3 +76,4 @@ fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
 print(green)
 print(yellow)
 print(red)
+
