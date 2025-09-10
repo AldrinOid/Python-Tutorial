@@ -14,7 +14,7 @@ list1.sort(reverse=True) # it will sort the list in descending order
 print(list1)
 
 # sort function is case sensitive
-list3 = ["banana", "Apple", "cherry", "date"]
+list3 = ["banana", "Apple", "Cherry", "date"]
 list3.sort() # it will sort the list in alphabetical order but uppercase letters come before lowercase
 print(list3)
 list3.sort(key=str.lower) # it will sort the list in alphabetical order ignoring case
