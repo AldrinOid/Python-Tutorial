@@ -10,7 +10,17 @@ class Computer:
         self.ram = ram
         self.storage = storage
     
-    def __str__(self):
-        return f"Computer with {self.cpu} CPU, {self.ram} RAM, and {self.storage} storage"
+    # def __str__(self):
+    #     return f"Computer with {self.cpu} CPU, {self.ram} RAM, and {self.storage} storage"
+    
+    def add_number(self, a, b):
+        return a + b
+
+p1 = Computer("Intel i7", "16GB", "512GB SSD")
+print(p1.add_number(5, 10))
+
+
+
+
     
     
