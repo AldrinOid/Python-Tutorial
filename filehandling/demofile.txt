@@ -1,4 +1,1 @@
-Hello welcome to python
-I hope you enjoy and learn something here
-Be a problem solver and creative
-Good luck!
+ I love coding in python!
