@@ -25,6 +25,7 @@ for y in range(len(thislist)):
 print("\n")
 
 # range(start, end, step)
+# it always start on zero 0
 for num in range(6):
     print(num)
 
@@ -38,3 +39,7 @@ for nums in range(1,6):
 print("\n")
 for numss in range(2, 20, 2):
     print(numss)
+
+something = 2
+for q in range(something):
+    print(q)
