@@ -115,7 +115,7 @@ class BankAccount:
 
 
 
-acc1 = BankAccount("Aldrin", "1000")
+acc1 = BankAccount("Luke", 1000)
 acc2 = BankAccount("Jesserie", 500)
 print()
 acc1.displayBalance()
